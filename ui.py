@@ -23,11 +23,11 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-st.title("IITB UG RuleBook ChatBot")
+st.title("IITB UG RuleBookGPT")
 
 question = st.text_input(
-    "Ask Your Query: ",
-    placeholder="What data are looking for?"
+    "Enter Your Query: ",
+    placeholder="What info are looking for?"
 )
 
 
